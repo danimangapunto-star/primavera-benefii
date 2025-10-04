@@ -1,1 +1,293 @@
-<meta http-equiv="refresh" content="0; url=https://www.libreriatom.sbs/" />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Perfumes - Fragancias Exclusivas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .perfume-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .perfume-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .perfume-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .perfume-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 3px solid #e74c3c;
+        }
+
+        .perfume-info {
+            padding: 25px;
+        }
+
+        .perfume-name {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .perfume-brand {
+            color: #e74c3c;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .perfume-description {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .notes {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .notes-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .notes-list {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .info-section {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-section h2 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info-section p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .tip-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid #e74c3c;
+        }
+
+        .tip-card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .tip-card p {
+            color: #7f8c8d;
+            font-size: 0.95em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌸 Guía de Perfumes Exclusivos 🌸</h1>
+            <p class="subtitle">Descubre las fragancias más elegantes del mundo</p>
+        </header>
+
+        <div class="perfume-grid">
+            <div class="perfume-card">
+                <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=300&fit=crop" alt="Chanel No. 5" class="perfume-image">
+                <div class="perfume-info">
+                    <h3 class="perfume-name">Chanel No. 5</h3>
+                    <p class="perfume-brand">Chanel</p>
+                    <p class="perfume-description">El perfume más icónico del mundo, creado en 1921 por Ernest Beaux. Una fragancia floral aldehídica que ha conquistado generaciones.</p>
+                    <div class="notes">
+                        <div class="notes-title">Notas:</div>
+                        <div class="notes-list">Aldehídos, Rosa, Jazmín, Ylang-Ylang, Sándalo, Vainilla</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="perfume-card">
+                <img src="https://images.unsplash.com/photo-1594736797933-d0c29b8e3a1e?w=400&h=300&fit=crop" alt="Dior Sauvage" class="perfume-image">
+                <div class="perfume-info">
+                    <h3 class="perfume-name">Sauvage</h3>
+                    <p class="perfume-brand">Dior</p>
+                    <p class="perfume-description">Una fragancia fresca y salvaje que captura la esencia de la naturaleza. Perfecta para el hombre moderno y aventurero.</p>
+                    <div class="notes">
+                        <div class="notes-title">Notas:</div>
+                        <div class="notes-list">Pimienta de Sichuan, Bergamota, Ambroxan, Cedro</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="perfume-card">
+                <img src="https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=400&h=300&fit=crop" alt="Tom Ford Black Orchid" class="perfume-image">
+                <div class="perfume-info">
+                    <h3 class="perfume-name">Black Orchid</h3>
+                    <p class="perfume-brand">Tom Ford</p>
+                    <p class="perfume-description">Una fragancia misteriosa y seductora que combina la elegancia de la orquídea negra con notas orientales profundas.</p>
+                    <div class="notes">
+                        <div class="notes-title">Notas:</div>
+                        <div class="notes-list">Orquídea Negra, Chocolate, Pachulí, Vainilla, Sándalo</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="perfume-card">
+                <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=400&h=300&fit=crop" alt="Yves Saint Laurent Libre" class="perfume-image">
+                <div class="perfume-info">
+                    <h3 class="perfume-name">Libre</h3>
+                    <p class="perfume-brand">Yves Saint Laurent</p>
+                    <p class="perfume-description">Una fragancia que celebra la libertad femenina con una composición floral moderna y empoderada.</p>
+                    <div class="notes">
+                        <div class="notes-title">Notas:</div>
+                        <div class="notes-list">Lavanda, Neroli, Jazmín, Vainilla, Ambroxan</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="perfume-card">
+                <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&h=300&fit=crop" alt="Creed Aventus" class="perfume-image">
+                <div class="perfume-info">
+                    <h3 class="perfume-name">Aventus</h3>
+                    <p class="perfume-brand">Creed</p>
+                    <p class="perfume-description">Inspirado en la dramática vida de un emperador histórico, esta fragancia es poderosa y memorable.</p>
+                    <div class="notes">
+                        <div class="notes-title">Notas:</div>
+                        <div class="notes-list">Piña, Manzana, Abedul Negro, Pachulí, Almizcle</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="perfume-card">
+                <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=400&h=300&fit=crop" alt="Maison Margiela Replica" class="perfume-image">
+                <div class="perfume-info">
+                    <h3 class="perfume-name">Replica By the Fireplace</h3>
+                    <p class="perfume-brand">Maison Margiela</p>
+                    <p class="perfume-description">Captura el momento íntimo de estar junto a una chimenea en una noche de invierno.</p>
+                    <div class="notes">
+                        <div class="notes-title">Notas:</div>
+                        <div class="notes-list">Castaña Asada, Clavo, Gaïac, Cashmeran, Vainilla</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>💫 Historia de los Perfumes</h2>
+            <p>Los perfumes han acompañado a la humanidad desde tiempos ancestrales. Los antiguos egipcios ya utilizaban fragancias en sus rituales religiosos y ceremonias. Los griegos y romanos perfeccionaron el arte de la perfumería, creando mezclas complejas que se convirtieron en símbolos de estatus y elegancia.</p>
+            <p>Durante el Renacimiento, la perfumería floreció en Europa, especialmente en Francia, donde se establecieron las bases de la industria moderna. Hoy en día, la perfumería es un arte que combina ciencia, creatividad y tradición para crear experiencias olfativas únicas.</p>
+        </div>
+
+        <div class="info-section">
+            <h2>🎯 Consejos para Elegir tu Perfume</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>Conoce tu Personalidad</h3>
+                    <p>Tu perfume debe reflejar tu personalidad. Si eres aventurero, opta por fragancias frescas y cítricas. Si prefieres la elegancia, las notas florales o orientales serán perfectas.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Prueba en tu Piel</h3>
+                    <p>Los perfumes reaccionan diferente en cada persona debido al pH de la piel. Siempre prueba la fragancia en tu muñeca y espera unas horas para sentir su evolución completa.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Considera la Estación</h3>
+                    <p>Las fragancias frescas y cítricas son ideales para primavera y verano, mientras que las notas cálidas y especiadas funcionan mejor en otoño e invierno.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Menos es Más</h3>
+                    <p>Aplica tu perfume con moderación. Unas pocas pulverizaciones en puntos estratégicos como muñecas, cuello y detrás de las orejas son suficientes.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2024 Guía de Perfumes - Descubre tu fragancia perfecta</p>
+        </footer>
+    </div>
+</body>
+</html>
